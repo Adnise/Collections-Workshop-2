@@ -19,7 +19,7 @@ public class Exercise0 {
 
         // TODO Exercise #0 a) Create a Map (HashMap) and add elements to it (using put() method)
         // TODO Exercise #0 a) Hint: Don't forget to specify the types of the key and value when creating the Map
-        HashMap<String, Integer> hm = new HashMap();
+        HashMap<String, Integer> hm = new HashMap<String, Integer>();
 
         hm.put("Lalala",20);
         hm.put("Lelelele",23);
@@ -28,8 +28,7 @@ public class Exercise0 {
         // TODO Exercise #0 b) Iterate over the Map using keySet() method and print all its elements
         // TODO Exercise #0 b) The elements could be printed like this: [key1=value1, key2=value2, ...]
 
-        Set<String> keys = hm.keySet();
-        for (String key : keys) {
+        for (String key : hm.keySet()) {
            System.out.println( hm.get(key));
         }
     }

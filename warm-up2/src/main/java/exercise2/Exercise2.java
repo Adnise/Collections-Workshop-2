@@ -35,9 +35,6 @@ public class Exercise2 {
         // TODO the toString() method from Student class -> TODO Exercise 2 a)
 
 
-
-
-
         // A Set with elements of type Student without the methods equals() and hashCode() implemented
         Set<StudentWithoutEqualsAndHashCode> studentSetWithoutEqualsAndHashCode =
                 new HashSet<StudentWithoutEqualsAndHashCode>();
